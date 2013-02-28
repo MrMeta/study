@@ -3,6 +3,7 @@ EcmaXpGene
 * 출처 : 자작
 * 모티브 : https://www.youtube.com/watch?v=Yr_nRnqeDp0
 * 언어 : Python 
+
 =====
 1000개의 EcmaXp를 준비합니다.
 EcmaXp는 EcmaXp.dice()를 실행하면 주사위가 됩니다.
