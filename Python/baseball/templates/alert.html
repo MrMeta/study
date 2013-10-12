@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block body %}
+<script>
+{% for message in get_flashed_messages() %}
+    alert('{{ message }}');
+{% endfor %}
+    location.replace('/');
+</script>
+{% endblock %}
