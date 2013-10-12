@@ -51,7 +51,7 @@ def answer():
                     log.append(u'%s - %d strike, %d ball' % (request.form['answer'], strike, ball))
                     session['log'] = '|'.join(log)
             else:
-                flash(u'기회를 모두 소진하셨습니다. 정답은 ' + request.form['answer'] + u'입니다.')
+                flash(u'기회를 모두 소진하셨습니다. 정답은 ' + session['answer'] + u'입니다.')
                 session['answer'] = None
                 return render_template('alert.html', title=u'숫자야구 : 패배')
         else:
